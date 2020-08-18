@@ -12,9 +12,6 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
 
-          <p>
-            Hello.
-          </p>
           <a
             className="App-link"
             href="https://reactjs.org"
