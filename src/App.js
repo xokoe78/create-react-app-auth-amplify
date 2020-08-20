@@ -11,12 +11,18 @@ import Footer from "./Footer";
 import MainContent from "./MainContent";
 
 
+
 Amplify.configure(aws_exports);
+
 
 class App extends Component {
 
+
   render() {
+
+
     return (
+
       <div>
         <Header/>
         <Menu/>
@@ -30,6 +36,4 @@ class App extends Component {
 }
 
 
-
-
-export default withAuthenticator(App, true);
+export default withAuthenticator(App, false);
